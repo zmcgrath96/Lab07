@@ -1,0 +1,17 @@
+List of Bugs:
+
+removeBack:
+    - does not decrement size by one once removed
+    - does not return true when an item has been removed
+
+
+removeFront:
+    - does not decrement size when item is removed
+    - does not return true when item has been removed
+    - does not remove from the front of the list
+
+isEmpty:
+    - does not return true when used on a list that isn't empty
+
+addBack:
+    - does not add a value to the back of the list, but still increments size
